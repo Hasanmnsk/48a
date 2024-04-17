@@ -1,0 +1,10 @@
+# Mehedi Hasan
+#mehedi.hasan79@myhunter.cuny.edu 
+
+word = input("Enter a non-empty string:")
+
+while word == "":
+  print("That was empty. Try again.")
+  word = input("Enter a non-empty string:")
+
+print("You entered:",word)
